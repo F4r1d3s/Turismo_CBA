@@ -1,18 +1,50 @@
+
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <title>Gastronomía y Lugares para Visitar en Córdoba</title>
 </head>
+
 <body>
 
 <h1>Gastronomía y Lugares para Visitar en Córdoba</h1>
 
 <p>La provincia de Córdoba, situada en la región central de Argentina, cuenta con una rica tradición gastronómica que refleja la diversidad de influencias culturales en la región. La comida cordobesa se caracteriza por su mezcla de sabores autóctonos y elementos de la cocina española e italiana.</p>
 
+
 <h2>Opciones Gastronómicas</h2>
+<div class="slick-carousel">
+    <div><img src="carrusel.jpg" alt="Asado Cordobés"></div>
+    <div><img src="carrusel2.jpg" alt="Empanadas Cordobesas"></div>
+    <!-- Agregamos más imágenes aquí según sea necesario -->
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slick-carousel').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true,
+            autoplay: true, // Esta opción habilita el giro automático del carrusel
+            autoplaySpeed: 4000 // Controla la velocidad del giro automático en milisegundos (en este caso, 2 segundos por imagen)
+            
+        });
+    });
+</script>
+
+</body>
+</html>
+
 <ul>
     <li>
         <h3>Asado Cordobés</h3>
@@ -71,6 +103,9 @@
 </ul>
 </ul>
 
+<p>La provincia de Córdoba, situada en la región central de Argentina, cuenta con una rica tradición gastronómica que refleja la diversidad de influencias culturales en la región. La comida cordobesa se caracteriza por su mezcla de sabores autóctonos y elementos de la cocina española e italiana.</p>
+
+
 <h2>Lugares para Visitar</h2>
 <ul>
     <li><a href="https://es.wikipedia.org/wiki/Barrio_G%C3%BCemes_(C%C3%B3rdoba)">Barrio Güemes</a></li>
@@ -78,5 +113,21 @@
     <li><a href="https://es.wikipedia.org/wiki/Lago_San_Roque">Lago San Roque</a></li>
 </ul>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slick-carousel').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true
+            // Puedes ajustar otras opciones según tus necesidades
+        });
+    });
+</script>
+
 </body>
 </html>
+
