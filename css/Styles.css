@@ -1,0 +1,18 @@
+}
+#izquierda{
+    border: 3px solid rgb(170, 128, 128);
+    float: left
+}
+#derecha{
+     border: 3px solid rgb(170, 128, 128);
+     float: right
+}
+#foto{
+    border: 3px solid rgb(0, 0, 0);
+    float: left
+}
+.arriba{font-weight: bold;
+    color: red;
+    text-decoration: none
+}
+
