@@ -11,6 +11,67 @@
     <title>Hoteleria</title>
 </head>
 <body>
+    <main title="Contenido de la página">   
+        <div class="container-fluid fixed-bottom">
+
+            <section id="elementosnav">   
+                <div class="row">
+                        <!-- icono clima -->
+                    <div class="col-2" id="tiempo">
+                        <img id="iconoclima" src="img/iconodeclima.jpg" title="Tiempo en Córdoba" alt="clima" width="50px" height="50px">
+                    </div>
+                        
+            <nav id="menu">
+                <!--start menu -->
+                <ul>
+                    <li><a href="#">Destino</a>    
+                <!--start menu desplegable-->
+                <ul>
+                    <li><a href="Estancias_Jesuitas.html">Estancias Jesuitas</a></li>
+                    <li><a href="caminobrocheriano.html">Camino Brocheriano</a></li>
+                    <li><a href="santuariovirgenaltagracia.html">Santurario Virgen de Alta Gracia</a></li>
+                </ul>
+                <!--end menu desplegable-->
+                </li>                     
+                    <li><a href="hoteleria.html">Hoteleria</a></li>
+                    <li><a href="gastronomia.html">Gastronomia</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Nosotros</a>
+                        <ul>
+                            <li><a href="presentaciondaniel.html">Daniel Arriola</a></li>
+                            <li><a href="Presentacion.html">Farid Chavez</a></li>
+                            <li><a href="#">Gustavo Loza</a></li>
+                            <li><a href="#">Elena Maita</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--end menu-->
+
+            </nav>
+
+                        <!--idioma -->
+                    <div class="col-2" id="idioma" title="Cambiar idioma">
+                        <button class="btn btn white" type="idioma">english</button>
+                    <div>    
+                </div>
+            </section> 
+
+
+                    <!-- slide de fotos-->
+            <section title="Galeria de Imágenes">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col"  id="galeria">
+                            <img src="img/Iglesia_Catedral.jpg" alt="Catedral de Córdoba">
+                            <img src="img/Iglesia_Sagrado_Corazon_de_Jesús_de_los_Capuchinos.jpg" alt="Iglesia de los Capuchinos"> 
+                            <img src="img/Manzana_Jesuitica.jpg" alt="Manzana Jesuita"> 
+                            <img src="img/santuario.jpg" alt="Museo Religioso"> 
+                        </div>
+                    </div>
+                </div> 
+            </section>
+
     <div class="container-fluid">
         <nav id="arriba"></nav>
         <div><h1>Hoteleria </h1>
@@ -23,63 +84,63 @@
             </div>
             
             <div>
-                <table>
-                    <caption>Hoteles Cercanos</caption>
+                <table id="table">
+                    <caption><h1>Hoteles Cercanos</h1></caption>
                     <tr>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Destino Cercano</th>
-                        <th scope="col">Pagina Oficial - Informacion</th>
-                        <th scope="col">Ubicacion</th>
+                        <th scope="col"><h2>Nombre</h2></th>
+                        <th scope="col"><h2>Destino Cercano</h2></th>
+                        <th scope="col"><h2>Pagina Oficial - Informacion</h2></th>
+                        <th scope="col"><h2>Ubicacion</h2></th>
                         <th scope="col"></th>
                     </tr>
                     <tr>
-                        <td>Hotel Mirasoles</td>
-                        <td>Camino Brocheriano</td>
-                        <td><a href="https://www.turismocordoba.com.ar/hotelmirasoles/">Hace tu reserva</a></td>
-                        <td><a href="https://maps.app.goo.gl/Ewe8E44Pm5A8qy8p7">Como llegar</a></td>
-                        <td><img src="img/hotelmirasoles.jpg"></td>
+                        <td><h2>Hotel Mirasoles</h2></td>
+                        <td><h2>Camino Brocheriano</h2></td>
+                        <td><a href="https://www.turismocordoba.com.ar/hotelmirasoles/"><h2>Hace tu reserva</h2></a></td>
+                        <td><div class="mapouter"><div class="gmap_canvas"><iframe width="250" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=Hotel+Mirasoles%2C+C%C3%B3rdoba&t=&z=18&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://online-timer.me/"></a><br><a href="https://timenowin.net/"></a><br><style>.mapouter{position: relative;text-align: right;height: 250px;width: 250px;}</style><a href="https://www.embedmaps.co">generate Google Maps</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 250px;width: 250px;}</style></div></div></td>
+                        <td><img src="img/hotelmirasoles.jpg" width="250px"></td>
                     </tr>
                     <tr>
-                        <td>Hotel La Paz</td>
-                        <td>Estancia Colonia Caroya</td>
-                        <td><a href="https://puebloestancialapaz.com/">Hace tu reserva</a></td>
-                        <td><a href="https://maps.app.goo.gl/QZaXdjcoM9gp67N26">Como llegar</a></td>
-                        <td><img src="img/estancialapaz.jpg"></td>
+                        <td><h2>Estancia La Paz</h2></td>
+                        <td><h2>Estancia Colonia Caroya</h2></td>
+                        <td><a href="https://puebloestancialapaz.com/">Hace tu reserva</h2></a></td>
+                        <td><div class="mapouter"><div class="gmap_canvas"><iframe width="250" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=Estancia+La+Paz&t=&z=18&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://online-timer.me/"></a><br><a href="https://timenowin.net/"></a><br><style>.mapouter{position: relative;text-align: right;height: 250px;width: 250px;}</style><a href="https://www.embedmaps.co">google map net</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 250px;width: 250px;}</style></div></div></td>
+                        <td><img src="img/estancialapaz.jpg" width="250px"></td>
                     </tr>
                     <tr>
-                        <td>El Colibri-Estancia de Charme</td>
-                        <td>Estancia Jesus Maria</td>
-                        <td><a href="https://www.estanciaelcolibri.com/">Hace tu reserva</a></td>
-                        <td><a href="https://maps.app.goo.gl/7WtJuFAudfKopWSK8">Como llegar</a></td>
-                        <td><img src="img/elcolibri.jpg"></td>
+                        <td><h2>El Colibri-Estancia de Charme</h2></td>
+                        <td><h2>Estancia Jesus Maria</h2></td>
+                        <td><a href="https://www.estanciaelcolibri.com/">Hace tu reserva</h2></a></td>
+                        <td><div class="mapouter"><div class="gmap_canvas"><iframe width="250" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=El+Colibri+-+Estancia+de+Charme&t=&z=18&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://online-timer.me/"></a><br><a href="https://timenowin.net/"></a><br><style>.mapouter{position: relative;text-align: right;height: 250px;width: 250px;}</style><a href="https://www.embedmaps.co">html map area</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 250px;width: 250px;}</style></div></div></td>
+                        <td><img src="img/elcolibri.jpg" width="250px"></td>
                     </tr>
                     <tr>
-                        <td>Hotel Boutique</td>
-                        <td>Estancia Santa Catalina</td>
-                        <td><a href="https://hotelboutique-villarosarito.negocio.site/?utm_source=gmb&utm_medium=referral">Hace tu reserva</a></td>
-                        <td><a href="https://www.google.com/travel/search?q=hotel%20cercano%20a%20estancia%20santa%20catalina&g2lb=2502548%2C2503771%2C2503781%2C2504374%2C4258168%2C4270442%2C4284970%2C4291517%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4899571%2C4899573%2C4924070%2C4965990%2C4990494%2C72277292%2C72298667%2C72302247%2C72317059%2C72318744%2C72379816%2C72393367%2C72402232%2C72406588%2C72412687%2C72412688%2C72414905&hl=es-419&gl=ar&ssta=1&ts=CAESCAoCCAMKAggDGhwSGhIUCgcI5w8QCxgREgcI5w8QCxgTGAIyAggCKgcKBToDQVJT&qs=CAEyFENnc0lrWlhBcjlYWm5aZVJBUkFCOApCCQmZnP-tlyHkC0IJCb3HPm0FKA9TQgkJkQrwVc12LpE&ap=aAG6AQhvdmVydmlldw&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwiAurGZobOCAxUAAAAAHQAAAAAQCw&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls">Como llegar</a></td>
-                        <td><img src="img/estanciaboutique.jpg"></td>
+                        <td><h2>Hotel Boutique</h2></td>
+                        <td><h2>Estancia Santa Catalina</h2></td>
+                        <td><a href="https://hotelboutique-villarosarito.negocio.site/?utm_source=gmb&utm_medium=referral"><h2>Hace tu reserva</h2></a></td>
+                        <td><div class="mapouter"><div class="gmap_canvas"><iframe width="250" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=Hotel+Boutique+Villa+Rosarito&t=&z=18&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://online-timer.me/"></a><br><a href="https://timenowin.net/"></a><br><style>.mapouter{position: relative;text-align: right;height: 250px;width: 250px;}</style><a href="https://www.embedmaps.co">google satellite maps zoom</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 250px;width: 250px;}</style></div></div></td>
+                        <td><img src="img/estanciaboutique.jpg" width="250px"></td>
                     </tr>
                     <tr>
-                        <td>Hotel Ritz</td>
-                        <td>Estancia Alta Gracia</td>
-                        <td><a href="https://www.hotelritzaltagracia.com.ar/?cur=ARS">Hace tu reserva</a></td>
-                        <td><a href="https://www.google.com/travel/search?q=hotel%20cercano%20a%20estancia%20alta%20gracia&g2lb=2502548%2C2503771%2C2503781%2C2504374%2C4258168%2C4270442%2C4284970%2C4291517%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4899571%2C4899573%2C4924070%2C4965990%2C4990494%2C72277292%2C72298667%2C72302247%2C72317059%2C72318744%2C72379816%2C72393367%2C72402232%2C72406588%2C72412687%2C72412688%2C72414905&hl=es-419&gl=ar&ssta=1&ts=CAESCAoCCAMKAggDGhwSGhIUCgcI5w8QCxgREgcI5w8QCxgTGAIyAggCKgcKBToDQVJT&qs=CAEyFENnc0l1YUdaNElmeTk4M1RBUkFCOApCCQm5UAZ8kN-b00IJCfhrDUIZcuF-QgkJRQgjnbe7j6M&ap=aAG6AQhvdmVydmlldw&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwiIiviIorOCAxUAAAAAHQAAAAAQCw&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls">Como llegar</a></td>
-                        <td><img src="img/hotelritz.jpg"></td>
+                        <td><h2>Hotel Ritz</h2></td>
+                        <td><h2>Estancia Alta Gracia</h2></td>
+                        <td><a href="https://www.hotelritzaltagracia.com.ar/?cur=ARS"><h2>Hace tu reserva</h2></a></td>
+                        <td><div class="mapouter"><div class="gmap_canvas"><iframe width="250" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=Hotel+Ritz%2C+Alta+Gracia&t=&z=18&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://online-timer.me/"></a><br><a href="https://timenowin.net/"></a><br><style>.mapouter{position: relative;text-align: right;height: 250px;width: 250px;}</style><a href="https://www.embedmaps.co">insert google map html</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 250px;width: 250px;}</style></div></div></td>
+                        <td><img src="img/hotelritz.jpg" width="250px"></td>
                     </tr>
                     <tr>
-                        <td>Alto del Carmen Hotel de campo</td>
-                        <td>Estancia La Candelaria</td>
-                        <td><a href="http://">Hace tu reserva</a></td>
-                        <td><a href="https://www.google.com/travel/search?q=hotel%20cercano%20a%20estancia%20la%20candelaria%20cruz%20del%20eje&g2lb=2502548%2C2503771%2C2503781%2C2504374%2C4258168%2C4270442%2C4284970%2C4291517%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C4899571%2C4899573%2C4924070%2C4965990%2C4990494%2C72277292%2C72298667%2C72302247%2C72317059%2C72318744%2C72379816%2C72393367%2C72402232%2C72406588%2C72412687%2C72412688%2C72414905&hl=es-419&gl=ar&ssta=1&ts=CAESCAoCCAMKAggDGhwSGhIUCgcI5w8QCxgREgcI5w8QCxgTGAIyAggCKgcKBToDQVJT&qs=CAEyJ0Noa0k5dldzenZpTHNJRnZHZzB2Wnk4eE1XTnRYMlp6WXpSbUVBRTgKQgkJ9jrLiV_AAm9CCQkGekVkltTz60IJCciiK-3z9tHH&ap=aAG6AQhvdmVydmlldw&ictx=1&sa=X&utm_campaign=sharing&utm_medium=link_btn&utm_source=htls">Como llegar</a></td>
-                        <td><img src="img/altodelcarmen.jpg"></td>
+                        <td><h2>Alto del Carmen Hotel de campo</h2></td>
+                        <td><h2>Estancia La Candelaria</h2></td>
+                        <td><a href="http://"><h2>Hace tu reserva</h2></a></td>
+                        <td><div class="mapouter"><div class="gmap_canvas"><iframe width="250" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=Alto+del+Carmen+Hotel+de+campo&t=&z=18&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://online-timer.me/"></a><br><a href="https://timenowin.net/"></a><br><style>.mapouter{position: relative;text-align: right;height: 250px;width: 250px;}</style><a href="https://www.embedmaps.co">embedding maps in website</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 250px;width: 250px;}</style></div></div>/td>
+                        <td><img src="img/altodelcarmen.jpg" width="250px"></td>
                     </tr>
                     <tr>
-                        <td>NH Panorama</td>
-                        <td>Manzana Jesuitica de la Ciudad de Cordoba</td>
-                        <td><a href="https://www.nh-hotels.com/ar/hotel/nh-cordoba-panorama">Hace tu reserva</a></td>
-                        <td><a href="https://maps.app.goo.gl/xF2pbVdQ8ycWNDJX7">Como llegar</a></td>
-                        <td><img src="img/nhpanorama.jpg"></td>
+                        <td><h2>NH Panorama</h2></td>
+                        <td><h2>Manzana Jesuitica de la Ciudad de Cordoba</h2></td>
+                        <td><a href="https://www.nh-hotels.com/ar/hotel/nh-cordoba-panorama"><h2>Hace tu reserva</h2></a></td>
+                        <td><div class="mapouter"><div class="gmap_canvas"><iframe width="250" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=NH+Panorama%2C+Cordoba&t=&z=18&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://online-timer.me/"></a><br><a href="https://timenowin.net/"></a><br><style>.mapouter{position: relative;text-align: right;height: 250px;width: 250px;}</style><a href="https://www.embedmaps.co">create map in google</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 250px;width: 250px;}</style></div></div></td>
+                        <td><img src="img/nhpanorama.jpg" width="250px"></td>
                     </tr>
 
                    
@@ -89,9 +150,7 @@
             <i class="fa-copyright" aria-hidden="true">Creado 2023</i>
             <a href="#arriba" class="arriba">Arriba</a>
             <ul><h6>Enlaces consultados</h6>
-                <li><a href="">Pagina consultada</a></li>
-                <li><a href="">Cordoba Turismo</a></li>
-                <li><a href="">Pagina consultada</a></li>
+                <li><a href="https://www.cordobaturismo.gov.ar/?gad_source=1&gclid=CjwKCAiAjfyqBhAsEiwA-UdzJMJr_dhn3x1pCWb5GUfB8yvRbOPOaioUPbYxQCtxgY5gyb9yb6708hoC210QAvD_BwE">Cordoba Turismo</a></li>
                 </ul>
            </footer> 
 
